@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Reading Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Tarot Reading Services</h1>
+    </header>
+
+    <section id="services">
+        <h2>Services Offered</h2>
+        <ul>
+            <li>Love Readings</li>
+            <li>Career Guidance</li>
+            <li>General Tarot Spreads</li>
+        </ul>
+    </section>
+
+    <section id="booking">
+        <h2>Book a Reading</h2>
+        <form action="booking.html" method="post">
+            <label for="service">Choose a service:</label>
+            <select id="service" name="service">
+                <option value="love">Love Reading</option>
+                <option value="career">Career Guidance</option>
+                <option value="general">General Spread</option>
+            </select>
+            <br>
+            <label for="date">Choose a date:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+    </section>
+</body>
+</html>
